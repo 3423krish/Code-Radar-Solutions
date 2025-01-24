@@ -3,8 +3,10 @@
 int main() {
     int radius;
     float area;
+    int square;
     scanf("%d",&radius);
-    area=3.14*(radius**2);
+    square= radius ** 2;
+    area=3.14*square;
     printf("Area: %.2f",area);
     return 0;
 }
