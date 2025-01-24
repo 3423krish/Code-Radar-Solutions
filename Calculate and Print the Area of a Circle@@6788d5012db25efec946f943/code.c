@@ -3,7 +3,7 @@
 int main() {
     int radius;
     float area;
-    int square;
+    float square;
     scanf("%d",&radius);
     square= radius ** 2;
     area=3.14*square;
