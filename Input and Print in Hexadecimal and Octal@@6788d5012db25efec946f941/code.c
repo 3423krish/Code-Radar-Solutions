@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#invlude <conio.h>
 int main() {
     int a;
     scanf("%d",a);
