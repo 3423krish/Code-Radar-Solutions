@@ -3,6 +3,7 @@
 int main() {
     char a,
     scanf("%c",&a);
+    a=toupper(a)
     if (a=='A'){
         printf("Excellent");
     }else if (a=='B'){
