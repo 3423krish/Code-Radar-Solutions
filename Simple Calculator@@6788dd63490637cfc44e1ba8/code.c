@@ -15,7 +15,7 @@ int main() {
             break;
         case '/':
             if (b==0){
-                printf("Can not be divisible by 0")
+                printf("Can not be divisible by 0");
             }else{
                 printf("%d",a/b);
             }
