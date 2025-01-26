@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 int main() {
-    char a,
+    char a;
     scanf("%c",&a);
     a = toupper(a);
     if (a=='A'){
