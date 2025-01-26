@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <math.h>
 int main() {
     int a,b,c;
     scanf("%d %d",&a,&b);
-    c = pow(b,2);
+    c = b*b;
     if (a==c){
         printf("Yes");
     }else{
