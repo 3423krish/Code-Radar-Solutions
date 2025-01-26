@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
-
 int main() {
     char a;
-    scanf("%c",a);
+    scanf("%c",&a);
     if (isalpha(a)){
         char lower= tolower(a);
         if(a=="a" || a=="e" || a=="i" || a=="o" || a=="u"){
