@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int a,b,d,e,f,g;
     char c;
@@ -8,13 +7,13 @@ int main() {
     e=a-b;
     f=a*b;
     g=a/b;
-    if (c=='+'){
+    if (c =='+'){
         printf("%d",(d));
-    }else if(c=='-'){
+    }else if(c =='-'){
         printf("%d",(e));
-    }else if(c=='*'){
+    }else if(c =='*'){
         printf("%d",(f));
-    }else if(c=='/'){
+    }else if(c =='/'){
         printf("%d",(g));
     }else{
         printf("error");
