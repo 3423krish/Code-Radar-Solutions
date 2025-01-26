@@ -7,7 +7,7 @@ int main() {
     d=a+b;
     e=a-b;
     f=a*b;
-    g=a%d;
+    g=b/a;
     if (c=='+'){
         printf("%d",(d));
     }else if(c=='-'){
