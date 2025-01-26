@@ -11,11 +11,9 @@ int main() {
         else{
             printf("Consonant");
         }
-    }
-    else if(isdigit(a)){
+    }else if(isdigit(a)){
         printf("Digit")
-    }
-    else{
+    }else{
         printf("Special Character");
     }
     return 0;
