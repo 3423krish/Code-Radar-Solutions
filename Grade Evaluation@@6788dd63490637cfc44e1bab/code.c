@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#include <ctype.h>
 int main() {
     char a,
     scanf("%c",&a);
-    a=toupper(a);
+    a = toupper(a);
     if (a=='A'){
         printf("Excellent");
     }else if (a=='B'){
