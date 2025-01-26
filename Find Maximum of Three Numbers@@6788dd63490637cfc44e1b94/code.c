@@ -9,11 +9,8 @@ int main() {
     else if((b>a) && (b>c)){
         pritnf("%d",b);
     }
-    else if((c>a)&&(c>b)){
+    else {
         printf("%d",c);
-    }
-    else{
-        printf("Wrong input")
     }
     return 0;
 }
