@@ -10,7 +10,7 @@ int main(){
             printf("*");
         }
         for(int k=a;k<2*a-1;k--){
-            printf("*")
+            printf("*");
         }
         printf("\n");
     }
