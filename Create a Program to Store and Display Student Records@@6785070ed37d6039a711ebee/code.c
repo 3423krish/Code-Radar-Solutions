@@ -5,7 +5,7 @@ struct Student{
     int roll_no;
     char Name[20];
     float Marks;
-}
+};
 
 int main() {
     int N;
