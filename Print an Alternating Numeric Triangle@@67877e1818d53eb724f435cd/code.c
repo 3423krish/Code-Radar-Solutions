@@ -14,7 +14,7 @@ int main(){
             num++;
             printf("%d ",num);
             if(num==1){
-                num=0;
+                num=num-2;
             }
             // printf(" ");
         }
