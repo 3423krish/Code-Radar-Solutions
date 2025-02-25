@@ -11,9 +11,9 @@ int main(){
         for(int j=1;j<=i;j++){
             // printf(" ");
             printf("%d ",num);
-            
+            num=num++;
             // printf(" ");
-        }num=num++;
+        }
         printf("\n");
     }
 }
