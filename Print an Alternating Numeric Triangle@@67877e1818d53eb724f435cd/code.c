@@ -8,9 +8,10 @@ int main(){
         // for(int k=1;k<=a-i;k++){
         //     printf(" ");
         // }
-        num++;
+
         for(int j=1;j<=i;j++){
             // printf(" ");
+            num++;
             printf("%d ",num);
             num--;
             // printf(" ");
