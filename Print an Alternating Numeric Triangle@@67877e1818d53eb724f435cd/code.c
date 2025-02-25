@@ -13,7 +13,9 @@ int main(){
             // printf(" ");
             num++;
             printf("%d ",num);
-            num--;
+            if(num==1){
+                num=num-2;
+            }
             // printf(" ");
         }
         printf("\n");
