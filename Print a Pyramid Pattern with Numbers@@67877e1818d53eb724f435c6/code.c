@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 int main(){
-    int a=5;
+    int a;
+    scanf("%d",&a);
     for(int i=0;i<=a;i++){
         for(int k=1;k<=2*a-i;k++){
             printf(" ");
