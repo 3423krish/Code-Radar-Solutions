@@ -11,11 +11,13 @@ int main(){
 
         for(int j=1;j<=i;j++){
             // printf(" ");
-            num++;
-            printf("%d ",num);
-            if(num==1){
-                num=num-2;
+            if(num==0){
+                num==1;
             }
+            else if(num==1){
+                num==0;
+            }
+            printf("%d ",num);
             // printf(" ");
         }
         printf("\n");
