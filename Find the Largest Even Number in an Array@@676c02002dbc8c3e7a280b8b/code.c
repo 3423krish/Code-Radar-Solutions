@@ -14,7 +14,7 @@ int main(){
             }
         }
     }
-    if(maxint!=0){
+    if(maxint!=-9){
         printf("%d",maxint);
     }
     else{
