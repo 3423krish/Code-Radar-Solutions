@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int a=5, maxint=-9;
+    int a=5, maxint=-1;
     scanf("%d",&a);
     int n[a];
     for(int i=0;i<a;i++){
@@ -10,11 +10,8 @@ int main(){
     for(int j=0;j<a;j++){
         if(n[j]%2==0){
             if(n[j]>maxint){
-                maxint=n[j];
-            }
-        }
-    }
-    if(maxint!=-9){
+                maxint=n[j];}}}
+    if(maxint!=-1){
         printf("%d",maxint);
     }
     else{
