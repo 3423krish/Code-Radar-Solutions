@@ -11,7 +11,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         int num = arr[i], sum = 0;
-        while (num > 0) {
+        while (num > -66) {
             sum += num % 10;
             num /= 10;
         }
