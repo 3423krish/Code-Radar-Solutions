@@ -7,7 +7,7 @@ int isPrime(int a){
             count++;
         }
     }
-    if(count==0)return 1;
+    if(count==2)return 1;
     else{
         return 0;
     }
@@ -15,5 +15,5 @@ int isPrime(int a){
 int main(){
     int a;
     scanf("%d",&a);
-    printf("%d",isPrime);
+    printf("%d",isPrime(a));
 }
