@@ -1,4 +1,4 @@
-void optimizedBubbleSort(int arr[], int n) {
+void BubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         int swapped = 0;
         for (int j = 0; j < n - i - 1; j++) {
@@ -9,6 +9,6 @@ void optimizedBubbleSort(int arr[], int n) {
                 swapped = 1;
             }
         }
-        if (!swapped) break;  // Stop if no swaps
+        if (!swapped) break;
     }
 }
